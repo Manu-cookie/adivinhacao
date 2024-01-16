@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Desafio HTML + JS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+
+    p {
+      color: #666;
+      line-height: 1.5;
+    }
+
+    .challenge {
+      background-color: #ffc107;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #ffc107;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #ff9800;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Desafio HTML + JS</h1>
+    <p>Seu desafio é completar as seguintes etapas:</p>
+
+    <div class="challenge">
+      <h2>Etapa 1:</h2>
+      <p>Adicione um botão abaixo deste desafio com o texto: "Clique-me!".</p>
+      <button class="btn" id='btn'> Clique-me! </button>
+    </div>
+
+    <div class="challenge">
+      <h2>Etapa 2:</h2>
+      <p>Adicione um contador:<span id="contador">0</span> dentro deste desafio.</p>
+      <script> const botao = document.getElementById('contador');
+      let count = 0;
+
+      botao.addEventListener('click', function() {
+        count++;
+        contador.textContent = count;
+      });
+      </script>
+
+    </div>
+
+    <div class="challenge">
+      <h2>Etapa 3:</h2>
+      <p>Ao clicar no botão "Clique-me!", o número dentro do parágrafo deve aumentar em 1.</p>
+    </div>
+
+    <!-- Resposta Sugerida -->
+    <!-- 
+    <button class="btn" id='btn'>Clique-me!</button>
+    <script>
+      const botao = document.getElementById('btn');
+      const contador = document.getElementById('contador');
+      let count = 0;
+
+      botao.addEventListener('click', function () {
+        count++;
+        contador.textContent = count;
+      });
+    </script> -->
+  </div>
+</body>
+</html>
