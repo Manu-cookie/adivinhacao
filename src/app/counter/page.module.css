@@ -1,0 +1,28 @@
+.subtrair {
+border: 2px solid red;
+}
+
+.somar {
+border: 2px solid rgb(7, 211, 7);
+}
+.multiplicar {
+    border: 2px solid violet;
+}
+
+.divir {
+    border: 2px solid blue;
+}
+
+.greencount {
+color: rgb(18, 224, 18);
+
+}
+
+.redcount {
+    color: red;
+}
+
+.bluecount {
+    color: rgb(53, 139, 209);
+}
+
