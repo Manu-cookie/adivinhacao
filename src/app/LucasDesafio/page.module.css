@@ -1,0 +1,65 @@
+.Nomecaracteristicas {
+display: flex;
+justify-content: center;
+align-items: flex-end;
+}
+
+.Manucaracteristicas {
+color:black;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    text-align: left; 
+}
+
+.normal {
+    display: flex;
+    font-weight: 400;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.negrito {
+    display: flex;
+    font-weight: 700;
+    justify-content: center;
+}
+
+.esquerda {
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+.favoritestitulo {
+display: flex;
+align-items: flex-start;
+flex-direction: column;
+height: 7vh;
+}
+
+.fundo {
+background-color: rgb(196, 226, 255);
+padding: 24px;
+border-radius: 10px;
+}
+
+.separar {
+display: flex;
+justify-content: center;
+gap: 70px;
+}
+
+.foto {
+display: flex;
+justify-content: center;
+border-radius: 50%;
+object-fit: cover;
+object-position: center;
+}
+.fotoContainer {
+    display:flex;
+    justify-content: center;
+}

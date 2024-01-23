@@ -1,0 +1,57 @@
+.ola {
+color:black;
+}
+
+.Users {
+width: 600px;
+height: 120px;
+display: flex;
+align-items: center;
+}
+
+.tela {
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+
+.fundo {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 193, 198);
+    padding: 24px;
+    border-radius: 10px;
+    width: 600px;
+}
+
+.negrito {
+    display: flex;
+    font-weight: 700;
+    margin-top: 0;
+    align-items: flex-end;
+}
+
+.normal {
+    display: flex;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+.fotinho {
+display: flex;
+gap: 24px;
+}
+
+.espaco{
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
